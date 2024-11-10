@@ -1,7 +1,19 @@
+/* App.css */
+
 .App {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Minimum height is 100% of the viewport height */
   text-align: center;
 }
 
+.content {
+  flex: 1; /* This allows the content to grow and take available space */
+  padding: 20px; /* Optional padding for the content */
+  background-color: #f9f9f9; /* Optional light background for content */
+}
+
+/* Additional styles you may have */
 .App-logo {
   height: 40vmin;
   pointer-events: none;

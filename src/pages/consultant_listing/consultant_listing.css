@@ -1,0 +1,74 @@
+/* ConsultantListing.css */
+
+.consultant-listing-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .consultant-listing-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007BFF; /* Blue */
+  }
+  
+  .consultant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .consultant-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .consultant-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .consultant-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0056D2; /* Medium Blue */
+  }
+  
+  .consultant-title {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .consultant-location {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .consultant-specialization {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .consultant-contact-btn {
+    background-color: #FF6600; /* Orange */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .consultant-contact-btn:hover {
+    background-color: #FF851B; /* Darker Orange */
+  }
+  
